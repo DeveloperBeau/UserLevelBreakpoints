@@ -13,6 +13,7 @@
 - CGPostError
 - NSData Reinitialization
 - UIApplicationMain ([Reveal](http://revealapp.com) framework injection)
+- Dealloc logger
 
 Read more about Automatic LLDB import of `UIKit` et al here: http://furbo.org/2015/05/11/an-import-ant-change-in-xcode/  
 Thanks Steve, Natasha for misc https://gist.github.com/forbze/919c7fced35f6ff59cbd  
@@ -30,7 +31,9 @@ Since *Reveal 5* you need to install the debugger commands before using the brea
 Just clone this gist:
 
 ```
-git clone https://gist.github.com/5c1ede17f8cec1f8b529.git ~/Library/Developer/Xcode/UserData/xcdebugger/
+git clone https://github.com/DeveloperBeau/UserLevelBreakpoints.git ~/Library/Developer/Xcode/UserData/xcdebugger/
 ```
 
 Or place `Breakpoints_v2.xcbkptlist` in `~/Library/Developer/Xcode/UserData/xcdebugger/` manually.
+
+special thanks to [@Ashton-W] for the original gist that you can find here: https://gist.github.com/5c1ede17f8cec1f8b529.git 
